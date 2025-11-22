@@ -209,6 +209,9 @@
   .mb-40 {
     margin-bottom: calc(var(--spacing) * 40);
   }
+  .mb-50 {
+    margin-bottom: calc(var(--spacing) * 50);
+  }
   .mb-\[30\] {
     margin-bottom: 30;
   }
@@ -378,6 +381,9 @@
   }
   .text-orange-300 {
     color: var(--color-orange-300);
+  }
+  .text-orange-500 {
+    color: var(--color-orange-500);
   }
   .text-orange-600 {
     color: var(--color-orange-600);
