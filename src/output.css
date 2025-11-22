@@ -13,6 +13,7 @@
     --color-orange-500: oklch(70.5% 0.213 47.604);
     --color-orange-600: oklch(64.6% 0.222 41.116);
     --color-orange-700: oklch(55.3% 0.195 38.402);
+    --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-2xl: 1.5rem;
@@ -230,11 +231,35 @@
   .h-\[296px\] {
     height: 296px;
   }
+  .h-\[406px\] {
+    height: 406px;
+  }
+  .w-\[7px\] {
+    width: 7px;
+  }
   .w-\[80\%\] {
     width: 80%;
   }
+  .w-\[90\%\] {
+    width: 90%;
+  }
   .w-\[364px\] {
     width: 364px;
+  }
+  .w-\[728px\] {
+    width: 728px;
+  }
+  .w-\[740px\] {
+    width: 740px;
+  }
+  .w-\[750px\] {
+    width: 750px;
+  }
+  .w-\[760px\] {
+    width: 760px;
+  }
+  .w-\[780px\] {
+    width: 780px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -381,6 +406,9 @@
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-gray-600 {
+    color: var(--color-gray-600);
   }
   .text-orange-50 {
     color: var(--color-orange-50);
