@@ -23,6 +23,8 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
+    --text-6xl: 3.75rem;
+    --text-6xl--line-height: 1;
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
     --text-8xl: 6rem;
@@ -192,6 +194,9 @@
   .mr-10 {
     margin-right: calc(var(--spacing) * 10);
   }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
@@ -200,6 +205,9 @@
   }
   .mb-30 {
     margin-bottom: calc(var(--spacing) * 30);
+  }
+  .mb-40 {
+    margin-bottom: calc(var(--spacing) * 40);
   }
   .mb-\[30\] {
     margin-bottom: 30;
@@ -289,6 +297,9 @@
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
+  .px-\[10px\] {
+    padding-inline: 10px;
+  }
   .px-\[20apx\] {
     padding-inline: 20apx;
   }
@@ -319,6 +330,15 @@
   .py-\[20\] {
     padding-block: 20;
   }
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
+  }
+  .pl-20 {
+    padding-left: calc(var(--spacing) * 20);
+  }
+  .pl-50 {
+    padding-left: calc(var(--spacing) * 50);
+  }
   .text-center {
     text-align: center;
   }
@@ -337,6 +357,10 @@
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-6xl--line-height));
   }
   .text-7xl {
     font-size: var(--text-7xl);
